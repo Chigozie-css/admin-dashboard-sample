@@ -611,7 +611,7 @@ main .recent-orders a {
 
     aside {
         position: fixed;
-        left: -100%;
+        left: 0;
         background: var(--color-white);
         width: 18rem;
         z-index: 3;
