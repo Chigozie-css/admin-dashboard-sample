@@ -34,8 +34,7 @@ Orders.forEach(order => {
                         'Declined' ? 'danger' : order.
                         shipping === 'pending' ? 
                         'warning' 
-                        : 'primary'}">${order.shipping}<
-                        /td>
+                        : 'primary'}">${order.shipping}</td>
                         <td class="primary">Details</td>
                        `;
     tr.innerHTML = trContent;
